@@ -31,42 +31,139 @@
       },
       {
         "name": "Operations:",
-        "table": ["{{utility-factions/activity/operations-group:training}}, {{utility-factions/activity/operations-group:subterfuge}}"],
+        "table": [
+          "{{utility-factions/activity/operations-group:training}}, {{utility-factions/activity/operations-group:subterfuge}}"
+        ],
         "type": "simple"
       },
       {
         "name": "Joining:",
-        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "table": ["{{utility-factions/activity/joining#UP:Influence}}"],
         "type": "simple"
       },
       {
-        "name": "Influence:",
-        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "name": "Age:",
+        "table": ["{{utility-factions/status/age#UP:Old}}"],
         "type": "simple"
       },
       {
         "name": "Resources:",
-        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "table": ["{{utility-factions/status/resources#UP:Strong finances}}"],
         "type": "simple"
       }
     ]
   },
   "Religious": {
-    "label": "Religious",
+    "label": "Religious Faction",
     "tableSections": [
       {
-        "name": "Terrain:",
-        "table": ["{{utility-nature/geography/terrain:terrain}}"],
+        "name": "",
+        "class": "text-bold",
+        "table": [
+          "{{utility-factions/name/religious#UP:Esteemed}}ism",
+          "Cult of the {{utility-factions/name/religious-of#UP:Esteemed}}",
+          "Order of the {{utility-factions/name/religious-of#UP:Esteemed}}",
+          "Sect of the {{utility-factions/name/religious-of#UP:Esteemed}}",
+          "{{utility-factions/name/religious#UP:Esteemed}} Mysteries"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Members:",
+        "table": ["{{Number#100-30000}}", "{{Number#30-850}} thousand"],
+        "type": "simple"
+      },
+      {
+        "name": "Ranks:",
+        "table": [
+          "{{utility-factions/rank/top#UP:Master}}, {{utility-factions/rank/intermediate#UP:Watcher}}, {{utility-factions/rank/upcoming#UP:Journeyman}}, {{utility-factions/rank/initial#UP:Initiate}}"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Goals:",
+        "table": ["{{utility-factions/activity/goals-religious#UP:mastery}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Operations:",
+        "table": [
+          "{{utility-factions/activity/operations-group:training}}, {{utility-factions/activity/operations-religious:charity}}",
+          "{{utility-factions/activity/operations-religious:charity}}, {{utility-factions/activity/operations-religious:chanting}}"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Joining:",
+        "table": ["{{utility-factions/activity/joining#UP:Influence}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Age:",
+        "table": ["{{utility-factions/status/age#UP:Old}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Resources:",
+        "table": ["{{utility-factions/status/resources#UP:Strong finances}}"],
         "type": "simple"
       }
     ]
   },
   "Military": {
-    "label": "Military",
+    "label": "Religious Faction",
     "tableSections": [
       {
-        "name": "Terrain:",
-        "table": ["{{utility-nature/geography/terrain:terrain}}"],
+        "name": "",
+        "class": "text-bold",
+        "table": [
+          "Knights of the {{utility-factions/name/military#UP:Esteemed}}",
+          "Brotherhood of the {{utility-factions/name/military#UP:Esteemed}}",
+          "Company of the {{utility-factions/name/military#UP:Esteemed}}",
+          "Warriors of the {{utility-factions/name/military#UP:Esteemed}}",
+          "{{utility-factions/name/military#UP:Esteemed}} Warband",
+          "{{utility-factions/name/military#UP:Esteemed}} Mercenaries",
+          "{{utility-factions/name/military#UP:Esteemed}} Brotherhood"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Members:",
+        "table": ["{{Number#100-40000}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Ranks:",
+        "table": [
+          "{{utility-factions/rank/top#UP:Master}}, {{utility-factions/rank/intermediate#UP:Watcher}}, {{utility-factions/rank/upcoming#UP:Journeyman}}, {{utility-factions/rank/initial#UP:Initiate}}"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Goals:",
+        "table": ["{{utility-factions/activity/goals-military#UP:mastery}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Operations:",
+        "table": [
+          "{{utility-factions/activity/operations-group:training}}, {{utility-factions/activity/operations-group:military}}"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Joining:",
+        "table": ["{{utility-factions/activity/joining#UP:Influence}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Age:",
+        "table": ["{{utility-factions/status/age#UP:Old}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Resources:",
+        "table": ["{{utility-factions/status/resources#UP:Strong finances}}"],
         "type": "simple"
       }
     ]
