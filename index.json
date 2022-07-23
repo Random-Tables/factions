@@ -1,0 +1,13 @@
+{
+    "collectionID": "factions",
+    "collectionName": "Factions",
+    "category": "group",
+    "isUtility": false,
+    "version": 1,
+    "required": ["utility-npc-fantasy@3","utility-factions@1"],
+    "tags": ["group", "fantasy"],
+    "tables": {
+      "factions": ["Professional", "Religious", "Military"]
+    }
+  }
+  

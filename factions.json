@@ -1,0 +1,74 @@
+{
+  "Professional": {
+    "label": "Professional",
+    "tableSections": [
+      {
+        "name": "",
+        "class": "text-bold",
+        "table": [
+          "{{utility-factions/name/professional#UP:Esteemed}} Guild of {{utility-npc-fantasy/roles/jobs#UP:Innkeeper}}s",
+          "{{utility-factions/name/professional#UP:Esteemed}} Order of {{utility-npc-fantasy/roles/jobs#UP:Innkeeper}}s",
+          "{{utility-factions/name/professional#UP:Esteemed}} Fraternity"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Members:",
+        "table": ["{{Number#10-300}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Ranks:",
+        "table": [
+          "{{utility-factions/rank/top#UP:Master}}, {{utility-factions/rank/intermediate#UP:Watcher}}, {{utility-factions/rank/upcoming#UP:Journeyman}}, {{utility-factions/rank/initial#UP:Initiate}}"
+        ],
+        "type": "simple"
+      },
+      {
+        "name": "Goals:",
+        "table": ["{{utility-factions/activity/goals-group#UP:mastery}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Operations:",
+        "table": ["{{utility-factions/activity/operations-group:training}}, {{utility-factions/activity/operations-group:subterfuge}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Joining:",
+        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Influence:",
+        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "type": "simple"
+      },
+      {
+        "name": "Resources:",
+        "table": ["{{utility-factions/activity/joining#UP:influence}}"],
+        "type": "simple"
+      }
+    ]
+  },
+  "Religious": {
+    "label": "Religious",
+    "tableSections": [
+      {
+        "name": "Terrain:",
+        "table": ["{{utility-nature/geography/terrain:terrain}}"],
+        "type": "simple"
+      }
+    ]
+  },
+  "Military": {
+    "label": "Military",
+    "tableSections": [
+      {
+        "name": "Terrain:",
+        "table": ["{{utility-nature/geography/terrain:terrain}}"],
+        "type": "simple"
+      }
+    ]
+  }
+}
