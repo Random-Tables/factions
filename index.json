@@ -3,7 +3,7 @@
     "collectionName": "Factions",
     "category": "group",
     "isUtility": false,
-    "version": 1,
+    "version": 2,
     "required": ["utility-npc-fantasy@3","utility-factions@2"],
     "tags": ["group", "fantasy"],
     "tables": {
