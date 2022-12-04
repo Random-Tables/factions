@@ -1,0 +1,23 @@
+{
+  "name": "@random-tables/factions",
+  "version": "1.0.1",
+  "description": "faction generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Random-Tables/factions.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Random-Tables/factions/issues"
+  },
+  "homepage": "https://github.com/Random-Tables/factions#readme",
+  "dependencies": {
+    "@random-tables/utility-factions": "^1.0.0",
+    "@random-tables/utility-npc-fantasy": "^1.3.1"
+  }
+}
